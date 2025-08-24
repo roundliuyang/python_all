@@ -1,0 +1,14 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>article Detail</title>
+ </head>
+ <body>
+ {% block content %}
+   {{ article.title }}
+   {{ article.pub_date }}
+   {{ article.body }}
+{% endblock %}
+ </body>
+ </html>
